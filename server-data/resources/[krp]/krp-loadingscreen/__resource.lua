@@ -4,7 +4,7 @@ files {
     'index.html',
     'style.css',
     'logo.png',
-    'background.jpg',
+    'background.png',
     
 }
 
