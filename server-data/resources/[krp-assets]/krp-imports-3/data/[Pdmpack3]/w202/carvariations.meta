@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>
+<Item>
+      <modelName>w202</modelName>
+      <colors>
+        <Item>
+          <indices>
+            <Item value="147" />
+            <Item value="24" />
+            <Item value="63" />
+            <Item value="18" />
+												<Item value="122" />
+												<Item value="25" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices>
+            <Item value="6" />
+            <Item value="22" />
+            <Item value="4" />
+            <Item value="18" />
+												<Item value="22" />
+												<Item value="22" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices>
+            <Item value="27" />
+            <Item value="107" />
+            <Item value="3" />
+            <Item value="18" />
+												<Item value="22" />
+												<Item value="106" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices>
+            <Item value="54" />
+            <Item value="24" />
+            <Item value="4" />
+            <Item value="24" />
+												<Item value="18" />
+												<Item value="22" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices>
+            <Item value="121" />
+            <Item value="22" />
+            <Item value="1" />
+            <Item value="18" />
+												<Item value="107" />
+												<Item value="22" />
+          </indices>
+          <liveries/>
+        </Item>
+      </colors>
+      <kits>
+        <Item>680_w202_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>standard white</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="680" />
+      <sirenSettings value="0" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>
