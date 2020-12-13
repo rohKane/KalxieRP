@@ -608,6 +608,14 @@ else if(secondInventory == "31")
     emitNet("inventory-open-target", src, [invArray,arrayCount,playerinvname,shopArray,shopAmount,targetinvname,500,false]);
 }
 
+else if(secondInventory == "55")
+{
+    var targetinvname = targetName;
+    var shopArray = Mechanic();
+    var shopAmount = 5;
+    emitNet("inventory-open-target", src, [invArray,arrayCount,playerinvname,shopArray,shopAmount,targetinvname,500,false]);
+}
+
 else if(secondInventory == "101")
 {
     var targetinvname = targetName;
@@ -1261,6 +1269,18 @@ function JailMeth() {
 function JailPhone() {
     var shopItems = [
     
+    ];
+    return JSON.stringify(shopItems);
+}
+
+function Mechanic() {
+    var shopItems = [
+        { item_id: "advrepairkit", id: 0, name: "craft", information: "{}", slot: 1, amount: 20 },
+        { item_id: "repairkit", id: 0, name: "craft", information: "{}", slot: 2, amount: 20 },
+        { item_id: "advlockpick", id: 0, name: "Shop", information: "{}", slot: 3, amount: 25 },
+        { item_id: "lockpick", id: 0, name: "Shop", information: "{}", slot: 4, amount: 25 },
+        { item_id: "nitrous", id: 0, name: "craft", information: "{}", slot: 5, amount: 5 },
+        { item_id: "tuner", id: 0, name: "craft", information: "{}", slot: 6, amount: 1 },
     ];
     return JSON.stringify(shopItems);
 }
