@@ -1,3 +1,3 @@
 @echo off
-C:/FXServer//FXServer.exe +set serverProfile  "default"
+C:/Kalxie-RP//FXServer.exe +set serverProfile  "default"
 pause
