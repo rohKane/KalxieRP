@@ -168,3 +168,34 @@ Citizen.CreateThread(function()
 		})
 	end
 end)
+
+--DISCORD 
+local appid = '763580923374731297'
+local asset = 'krp'
+
+function SetRP()
+    local name = GetPlayerName(PlayerId())
+    local id = GetPlayerServerId(PlayerId())
+    local info =  " On foot"
+
+
+    if(IsPedInAnyVehicle(GetPlayerPed(-1), false)) then
+        info = "In vehicle "
+
+    end
+
+    SetRichPresence(name .. ' [' .. id .. '] ')
+    SetDiscordAppId(appid)
+    SetDiscordRichPresenceAsset(asset)
+end
+
+Citizen.CreateThread(function()
+
+    SetRP()
+
+    while true do
+        Citizen.Wait(2500)
+        SetRP()
+    end
+
+end)
