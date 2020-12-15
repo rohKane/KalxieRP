@@ -7,7 +7,7 @@
         #content {
             position: absolute;
             border-radius: 5px;
-            background-color: #011b37;
+            background-color: #35383f;
             width: 75%;
             height: 80%;
             top: 50%;
@@ -21,7 +21,7 @@
             top: 2%;
             max-width: 175px;
             height: auto;
-            background-color: #011b37;
+            background-color: #35383f;
         }
         #main {
             position: relative;
@@ -43,14 +43,14 @@
             display: inline-block;
             max-width: 215px;
             height: auto;
-            border: 2px solid #fbbe28;
+            border: 2px solid #007aff;
             user-select: none;
         }
         .report-input {
             font-family: "Courier New";
             border-width:0px;
             border:none;
-            color: #00a2d6;
+            color: #ffffff;
             font-size: 12pt;
             padding: 0px 0px 0px 0px;
             width: 550px;
@@ -66,11 +66,11 @@
             position: fixed;
             width: 100%;
             height: 1.5%;
-            background-color: #fbbe28;
+            background-color: #007aff;
         }
         .nav-active {
             text-decoration: underline;
-            text-decoration-color: #fbbe28;
+            text-decoration-color: #007aff;
         }
         .noselect {
             user-select: none;
@@ -110,10 +110,10 @@
         }
         .modal-content {
             margin: auto;
-            background-color: #011b37;
+            background-color: #35383f;
             position: relative;
             padding: 20px 20px;
-            outline: 2px solid #fbbe28;
+            outline: 2px solid #007aff;
             top: 40%;
             width: 30%;
         }
@@ -123,7 +123,7 @@
         h2, h3 {
             font-family: "Arial Black";
             user-select: none;
-            color: #fbbe28;
+            color: #007aff;
             margin: 1px 1px 1px 1px;
         }
         h4 {
@@ -131,7 +131,7 @@
             font-weight: bolder;
             font-size: 14px;
             user-select: none;
-            color: #00a2d6;
+            color: #ffffff;
             margin: 1px 1px 1px 1px;
         }
         p {
@@ -151,26 +151,26 @@
             float: left;
             padding-left: 16px;
             padding-right: 16px;
-            border-right: 2px solid #fbbe28;
+            border-right: 2px solid #007aff;
         }
         li:last-child {
             border-right: none;
         }
         button {
-            background-color: #fbbe28;
-            color: #011b37;
+            background-color: #007aff;
+            color: #35383f;
             font-family: "Arial";
             font-weight: bolder;
-            border: 4px solid #fbbe28;
+            border: 4px solid #007aff;
             font-size: 12pt;
             text-align: center;
             padding: 4px 3px;
         }
         input {
-            background-color: #011b37;
+            background-color: #35383f;
             font-family: "Courier New";
-            border: 2px solid #fbbe28;
-            color: #00a2d6;
+            border: 2px solid #007aff;
+            color: #ffffff;
             font-size: 12pt;
             padding: 7px 15px 5px 15px;
             margin-right: 10px;
@@ -178,7 +178,7 @@
             text-align: left;
         }
         textarea {
-            background-color: #011b37;
+            background-color: #35383f;
             white-space: pre-line;
             white-space: pre-wrap;
             font-family: "Courier New";
@@ -186,7 +186,7 @@
             font-size: 14px;
             border-width:0px;
             border:none;
-            color: #00a2d6;
+            color: #ffffff;
             font-size: 12pt;
             padding: 0px 0px 0px 0px;
             width: 550px;
@@ -202,25 +202,25 @@
             color: white;
             padding: 5px 10px;
             text-align: center;
-            border-bottom: 3px solid #fbbe28;
+            border-bottom: 3px solid #007aff;
         }
         td {
             font-family: "Courier New";
             font-size: 14px;
-            color: #00a2d6;
+            color: #ffffff;
             padding: 10px;
             text-align: center;
-            border-top: 1px solid #fbbe28;
+            border-top: 1px solid #007aff;
         }
         table {
             border-collapse: collapse;
-            column-gap: 3px solid #fbbe28;
+            column-gap: 3px solid #007aff;
         }
         table td + td { 
-            border-left: 2px solid #fbbe28; 
+            border-left: 2px solid #007aff; 
         }
         table th + th { 
-            border-left: 2px solid #fbbe28; 
+            border-left: 2px solid #007aff; 
         }
         input:focus {
             outline: none;
@@ -229,8 +229,8 @@
             outline: none;
         }
         button:hover {
-            background-color: #00a2d6;
-            border-color: #00a2d6;
+            background-color: #ffffff;
+            border-color: #ffffff;
         }
         ::-webkit-scrollbar {
             width: 5px;
@@ -240,7 +240,7 @@
             border-radius: 5px;
         }
         ::-webkit-scrollbar-thumb {
-            background: #fbbe28; 
+            background: #007aff; 
             border-radius: 5px;
         }
     </style>
@@ -251,7 +251,7 @@
         <img src="badge.png" id="badge" class="noselect">
         <img src="footer.png" id="banner" class="noselect">
         
-        <p class="noselect" style="font-family: 'Georgia'; font-style: italic; font-size: 20pt; text-align: center;">National Crime Information Center</p>
+        <p class="noselect" style="font-family: 'Georgia'; font-style: italic; font-size: 20pt; text-align: center;">Los Santos Police Crime Information Center</p>
         <p class="noselect" style="position: fixed; left: 17%; top: 5.5%">Welcome, {{ officer.name }}.</p>
         <button type="button" class="noselect" v-on:click="closeMDT()" style="position: fixed; right: 10%; top: 5.5%">LOGOUT</button>
 
@@ -346,7 +346,7 @@
                             {{ offense }} (x{{ amount }})
                         </h4>
                     </span>
-                    <h4 v-if="report_selected.jailtime">Sentence: {{ report_selected.jailtime }} seconds</h4>
+                    <h4 v-if="report_selected.jailtime">Sentence: {{ report_selected.jailtime }} months</h4>
                     <h3>INCIDENT OFFICER</h3>
                     <h4 v-if="report_selected.author"> {{ report_selected.author }} </h4>
                     <h4 v-else-if="report_selected.author == null"> ... </h4>
@@ -355,7 +355,6 @@
                     <button v-if="report_selected.date" type="button" v-on:click="changePage('Submit Report'); report_new.charges = report_selected.charges; report_new.title = report_selected.title; report_new.incident = report_selected.incident;" id="report-details" class="noselect">COPY REPORT</button>
                     <button v-if="report_selected.date" type="button" v-on:click="changePage('Submit Warrant'); warrant_new.report_id = report_selected.id; warrant_new.char_id = report_selected.char_id; warrant_new.report_title = report_selected.title; warrant_new.name = report_selected.name; warrant_new.charges = report_selected.charges;" class="noselect">NEW WARRANT</button>
                     <button type="button" style="margin-top: 5px;" v-on:click="changePage('Submit Report')" class="noselect">NEW REPORT</button>
-					 <button type="button" style="margin-top: 5px;" v-on:click="closeMDT();evFile(report_selected.id)" class="noselect">EVIDENCE</button>
                 </div>
 
                 <div class="right-side" style="max-height: 435px;">
@@ -383,7 +382,7 @@
                         <h3>INCIDENT</h3>
                         <input v-model="report_new.title" style="font-size: 14px;" type="text" class="noselect" placeholder="Enter report title" class="report-input" required>
                         <h3>DETAILS</h3>
-                        <textarea v-model="report_new.incident" id="textarea2" style="font-size: 14px; border: 2px solid #fbbe28; padding: 7px 15px 5px 15px;" class="noselect" rows="6" cols="55" placeholder="Enter report description" onkeypress='this.style.height = "";this.style.height = this.scrollHeight + "px"' required>
+                        <textarea v-model="report_new.incident" id="textarea2" style="font-size: 14px; border: 2px solid #007aff; padding: 7px 15px 5px 15px;" class="noselect" rows="6" cols="55" placeholder="Enter report description" onkeypress='this.style.height = "";this.style.height = this.scrollHeight + "px"' required>
                         </textarea>
                         <h3>CHARGES</h3>
                         <h4 v-if="Object.keys(report_new.charges).length == 0"> ... </h4>
@@ -394,9 +393,9 @@
                             </h4>
                         </span>
                         <h4 v-if="report_new.recommended_fine > 0">Fine: ${{report_new.recommended_fine}}</h4>
-                        <h4 v-if="report_new.recommended_sentence > 0">Sentence: {{report_new.recommended_sentence}} seconds</h4>
+                        <h4 v-if="report_new.recommended_sentence > 0">Recommended Sentence: {{report_new.recommended_sentence}} months</h4>
                         <h3 v-if="report_new.recommended_sentence > 0">SENTENCE</h3>
-                        <input v-if="report_new.recommended_sentence > 0" v-model="report_new.sentence" style="font-size: 14px; margin-bottom: 5px;" type="text" class="noselect" placeholder="Enter seconds" class="report-input" required>
+                        <input v-if="report_new.recommended_sentence > 0" v-model="report_new.sentence" style="font-size: 14px; margin-bottom: 5px;" type="text" class="noselect" placeholder="Enter months" class="report-input" required>
                         <br />
                         <button v-if="report_new.char_id && Object.keys(report_new.charges).length > 0 && report_new.incident && report_new.title && ((report_new.recommended_sentence > 0 && report_new.sentence) || report_new.recommended_sentence == 0)" v-on:click="SubmitNewReport()" type="button" class="noselect" style="margin-top: 20px">SUBMIT REPORT</button>
                         <button v-if="report_new.focus == 'charges'" v-on:click="report_new.focus = 'name'" type="button" class="noselect" style="margin-top: 20px">SEARCH OFFENDER</button>
@@ -456,24 +455,20 @@
                     <h3>NOTES</h3>
                     <h4 v-if="offender_selected.notes"> {{ offender_selected.notes }} </h4>
                     <h4 v-if="offender_selected.haswarrant"> {{ offender_selected.firstname}} {{offender_selected.lastname}} has an active warrant... </h4>
-                    <h4 v-else-if="offender_selected.notes == '' && !offender_selected.haswarrant"> (Citizen has no notes listed) </h4>
+                    <h4 v-else-if="offender_selected.notes == '' && !offender_selected.haswarrant"> ... </h4>
                     <h3>LICENSES</h3>
-                    <h4 v-if="offender_selected.licenses == false"> (Citizen has no licenses) </h4>
+                    <h4 v-if="offender_selected.licenses == false"> ... </h4>
                     <span v-else-if="offender_selected.licenses" v-for="license in offender_selected.licenses">
                         <h4>{{ license.label }}</h4>
                     </span>
                     <h3>CONVICTIONS</h3>
-                    <h4 v-if="offender_selected.convictions == null"> (Citizen has no convictions) </h4>
+                    <h4 v-if="offender_selected.convictions == null"> ... </h4>
                     <span v-else-if="offender_selected.convictions" v-for="(value, name) in offender_selected.convictions">
                         <h4>{{ name }} x{{ value }}</h4>
                     </span>
                     <h3>DATE OF BIRTH</h3>
                     <h4 v-if="offender_selected.dateofbirth"> {{ offender_selected.dateofbirth }} </h4>
-                    <h4 v-else-if="offender_selected.dateofbirth == null"> (Citizen has no D-O-B) </h4>
-                    <br />
-					<h3>Goverment ID</h3>
-                    <h4 v-if="offender_selected.dateofbirth"> {{ offender_selected.identifier }} </h4>
-                    <h4 v-else-if="offender_selected.dateofbirth == null"> (Citizen has no Goverment ID) </h4>
+                    <h4 v-else-if="offender_selected.dateofbirth == null"> ... </h4>
                     <br />
                     <button v-if="offender_selected.firstname" type="button" v-on:click="changePage('Edit Offender')" id="edit-offender" class="noselect">EDIT PROFILE</button>
                     <button v-if="offender_selected.firstname" type="button" v-on:click="changePage('Submit Report'); report_new.char_id = offender_selected.id; report_new.name = offender_selected.firstname + ' ' + offender_selected.lastname; report_new.focus = 'charges'" id="edit-offender" class="noselect">NEW REPORT</button>
@@ -520,12 +515,12 @@
                         <h3>DETAILS</h3>
                         <h4 v-if="report_selected.incident" style="white-space: pre-line; white-space: pre-wrap;">{{ report_selected.incident }}</h4>
                         <h4 v-else-if="report_selected.incident == null"> ... </h4>
-                        <h4 v-if="report_selected.jailtime">Sentence: {{ report_selected.jailtime }} seconds</h4>
+                        <h4 v-if="report_selected.jailtime">Sentence: {{ report_selected.jailtime }} months</h4>
                     </template>
                     <template v-else-if="report_edit.enable == true">
                         <h3>DETAILS (EDIT)</h3>
                         <form>
-                            <textarea v-model="report_edit.data.incident" id="textarea" class="noselect" style="width: 95%; height: 80px; border: 2px solid #fbbe28; padding: 7px 15px 5px 15px; margin: unset; font-size: 14px;" onfocus='this.style.height = "";this.style.height = this.scrollHeight + "px"' onkeypress='this.style.height = "";this.style.height = this.scrollHeight + "px"' placeholder="Enter report description" required>
+                            <textarea v-model="report_edit.data.incident" id="textarea" class="noselect" style="width: 95%; height: 80px; border: 2px solid #007aff; padding: 7px 15px 5px 15px; margin: unset; font-size: 14px;" onfocus='this.style.height = "";this.style.height = this.scrollHeight + "px"' onkeypress='this.style.height = "";this.style.height = this.scrollHeight + "px"' placeholder="Enter report description" required>
                             </textarea>
                         </form>
                     </template>
@@ -540,6 +535,7 @@
                     <h4 v-else-if="report_selected.author == null"> ... </h4>
                     <br />
                     <button type="button" v-on:click="changePage('Search Reports')" id="search-reports" class="noselect">BACK TO REPORTS</button>
+                    <button v-if="report_edit.enable == false" type="button" v-on:click="SentencePlayer()" class="noselect">FINE</button>
                     <button v-if="report_edit.enable == false" type="button" v-on:click="ToggleReportEdit()" class="noselect">EDIT</button>
                     <button v-if="report_edit.enable == false" type="button" v-on:click="DeleteSelectedReport()" class="noselect">DELETE</button>
                     <template v-else-if="report_edit.enable">
@@ -732,7 +728,7 @@
             </div>
         </main>
         
-        <p class="noselect" style="font-family: 'Georgia'; font-style: italic; font-size: 20pt; position: fixed; bottom: 1%; right: 5.5%; direction: rtl;">Obey & Survive</p>
+        <p class="noselect" style="font-family: 'Georgia'; font-style: italic; font-size: 20pt; position: fixed; bottom: 1%; right: 5.5%; direction: rtl;">Serving Los Santos Community</p>
         <div class="line" style="bottom: 10%"></div>
     </div> 
 
