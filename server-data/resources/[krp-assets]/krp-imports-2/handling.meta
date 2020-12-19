@@ -124,8 +124,8 @@
       </SubHandlingData>
     </Item>
     <Item type="CHandlingData">
-      <!-- Mercedes C63 AMG -->
-      <handlingName>c63</handlingName>
+      <!-- Mercedes c63s AMG -->
+      <handlingName>c63s</handlingName>
       <fMass value="1500.000000" />
       <fInitialDragCoeff value="1.20000" />
       <fPercentSubmerged value="85.000000" />

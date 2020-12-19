@@ -226,10 +226,10 @@
       </firstPersonDrivebyData>
     </Item>
 	<Item>
-      <modelName>c63</modelName>
-      <txdName>c63</txdName>
-      <handlingId>c63</handlingId>
-      <gameName>c63</gameName>
+      <modelName>c63s</modelName>
+      <txdName>c63s</txdName>
+      <handlingId>c63s</handlingId>
+      <gameName>c63s</gameName>
       <vehicleMakeName>Mercedes-AMG</vehicleMakeName>
       <expressionDictName>null</expressionDictName>
       <expressionName>null</expressionName>
@@ -6953,7 +6953,7 @@
     </Item>
 	<Item>
 	  <parent>vehicles_poltax_interior</parent>
-      <child>c63</child>
+      <child>c63s</child>
     </Item>
 	<Item>
 	  <parent>vehicles_poltax_interior</parent>

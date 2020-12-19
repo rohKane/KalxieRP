@@ -976,13 +976,13 @@
       <liveryNames />
     </Item>
     <Item>
-      <kitName>950_c63_modkit</kitName>
+      <kitName>950_c63s_modkit</kitName>
       <id value="950" />
       <kitType>MKT_SPECIAL</kitType>
       <visibleMods>
         <Item>
-          <modelName>c63_wing_1</modelName>
-          <modShopLabel>c63_wing_1</modShopLabel>
+          <modelName>c63s_wing_1</modelName>
+          <modShopLabel>c63s_wing_1</modShopLabel>
           <linkedModels />
           <turnOffBones>
             <Item>boot</Item>
@@ -998,8 +998,8 @@
           <allowBonnetSlide value="true" />
         </Item>
         <Item>
-          <modelName>c63_wing_2</modelName>
-          <modShopLabel>c63_wing_2</modShopLabel>
+          <modelName>c63s_wing_2</modelName>
+          <modShopLabel>c63s_wing_2</modShopLabel>
           <linkedModels />
           <turnOffBones>
             <Item>boot</Item>
@@ -1015,8 +1015,8 @@
           <allowBonnetSlide value="true" />
         </Item>
         <Item>
-          <modelName>c63_wing_3</modelName>
-          <modShopLabel>c63_wing_3</modShopLabel>
+          <modelName>c63s_wing_3</modelName>
+          <modShopLabel>c63s_wing_3</modShopLabel>
           <linkedModels />
           <turnOffBones>
             <Item>boot</Item>
@@ -39219,7 +39219,7 @@
         <zBias value="0.250000" />
         <pullCoronaIn value="false" />
       </reversingLightCorona>
-      <name>c63</name>
+      <name>c63s</name>
     </Item>
     <Item>
       <id value="1528" />

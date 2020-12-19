@@ -97,7 +97,7 @@
       <sirenSettings value="0" />
     </Item>
     <Item>
-      <modelName>c63</modelName>
+      <modelName>c63s</modelName>
       <colors>
         <Item>
           <indices content="char_array">
@@ -119,7 +119,7 @@
         </Item>
       </colors>
       <kits>
-        <Item>950_c63_modkit</Item>
+        <Item>950_c63s_modkit</Item>
       </kits>
       <windowsWithExposedEdges />
       <plateProbabilities>
