@@ -277,7 +277,7 @@ local vehshopOwner = {
 				 {name = "Lexus RCF", costs = 325000, description = {}, model = "rcf"},
 				 {name = "LadyBird 6STR", costs = 475000, description = {}, model = "ladybird6str"},
 				 {name = "Mazda RocketBunny RX7", costs = 175000, description = {}, model = "rx7rb"},
-				 {name = "Mazda RX7", costs = 75000, description = {}, model = "fnfrx7"},
+--				 {name = "Mazda RX7", costs = 75000, description = {}, model = "fnfrx7"},
 				 {name = "Mazda RX7 FC", costs = 195000, description = {}, model = "fc3s"},
 				 {name = "Mazda Miata", costs = 150000, description = {}, model = "na6"},
 				 {name = "McLaren P1", costs = 800000, description = {}, model = "p1"},
@@ -288,6 +288,7 @@ local vehshopOwner = {
 				 {name = "Mitsubishi Evo10", costs = 135000, description = {}, model = "evo10"},
 				 {name = "Mitsubishi Eclipse", costs = 125000, description = {}, model = "eclipse"},
 				 {name = "Mercedes C63 AMG", costs = 290000, description = {}, model = "c63"},
+				 {name = "Mercedes c63s AMG", costs = 315000, description = {}, model = "c63s"},
 				 {name = "Mercedes 124", costs = 325000, description = {}, model = "mbw124"},
 				 {name = "Nissan LibertyWalk GTR", costs = 700000, description = {}, model = "lwgtr"},
 				 {name = "Nissan LibertyWalk GTR 2", costs = 500000, description = {}, model = "lwgtr2"},
@@ -325,10 +326,10 @@ local vehshopOwner = {
 				 {name = "ZR380", costs = 145000, description = {}, model = "zr3806str"},		 		
 			}
 		},
-		["casino"] = {
-			title = "casino",
-			name = "casino",
-			buttons = {
+--		["casino"] = {
+--			title = "casino",
+--			name = "casino",
+--			buttons = {
 --				{name = "Jugular", costs = 175000, description = {}, model = "jugular"},
 --				{name = "Peyote", costs = 75000, description = {}, model = "peyote2"},
 --				{name = "Gauntlet 4", costs = 150000, description = {}, model = "gauntlet4"},
@@ -347,12 +348,11 @@ local vehshopOwner = {
 --				{name = "Sugoi", costs = 105000, description = {}, model = "sugoi"},
 --				{name = "Sultan 2", costs = 155000, description = {}, model = "sultan2"},
 --				{name = "VSTR", costs = 186000, description = {}, model = "vstr"},
-
-
-
-			}
-		},
-		
+--
+--
+--
+--			}
+--		},
 		["muscle"] = {
 			title = "muscle",
 			name = "muscle",
