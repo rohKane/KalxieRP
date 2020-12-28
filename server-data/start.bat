@@ -1,3 +1,3 @@
 @echo off
-start B:\Kalxie-RP\run.cmd +exec server.cfg
-exit
+C:/Kalxie-RP//FXServer.exe +set serverProfile "default"
+pause
