@@ -17,7 +17,7 @@ local carTable = {
 -- Update car table to server
 RegisterServerEvent('carshop:table')
 AddEventHandler('carshop:table', function(table)
-    if table ~= nil then
+    if table ~= nil the
         carTable = table
         TriggerClientEvent('veh_shop:returnTable', -1, carTable)
         updateDisplayVehicles()
